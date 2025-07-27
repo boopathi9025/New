@@ -99,6 +99,28 @@ export const products: Product[] = [
     sellerId: 'seller_b',
     stock: 180,
   },
+  {
+    id: 'prod_009',
+    name: 'Crisp Green Apples',
+    description: 'A bag of crisp and tart green apples, perfect for snacking, baking, or making fresh juice.',
+    price: 5.99,
+    image: 'https://placehold.co/600x400',
+    dataAiHint: 'green apples',
+    category: 'Produce',
+    sellerId: 'seller_a',
+    stock: 200,
+  },
+  {
+    id: 'prod_010',
+    name: 'Durable Gardening Gloves',
+    description: 'Protect your hands with these durable, comfortable, and breathable gardening gloves. Features reinforced fingertips.',
+    price: 14.99,
+    image: 'https://placehold.co/600x400',
+    dataAiHint: 'gardening gloves',
+    category: 'Tools',
+    sellerId: 'seller_b',
+    stock: 100,
+  },
 ];
 
 export interface User {
