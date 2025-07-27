@@ -121,6 +121,28 @@ export const products: Product[] = [
     sellerId: 'seller_b',
     stock: 100,
   },
+  {
+    id: 'prod_011',
+    name: 'Sweet Corn on the Cob',
+    description: 'Four ears of sweet, juicy corn on the cob, picked fresh. Perfect for grilling, boiling, or roasting.',
+    price: 3.99,
+    image: 'https://placehold.co/600x400',
+    dataAiHint: 'sweet corn',
+    category: 'Produce',
+    sellerId: 'seller_a',
+    stock: 250,
+  },
+  {
+    id: 'prod_012',
+    name: 'Organic Cucumber Seeds',
+    description: 'Grow your own crisp and refreshing cucumbers with these high-quality organic seeds. Great for pickling or fresh salads.',
+    price: 2.99,
+    image: 'https://placehold.co/600x400',
+    dataAiHint: 'cucumber seeds',
+    category: 'Seeds',
+    sellerId: 'seller_b',
+    stock: 400,
+  },
 ];
 
 export interface User {
